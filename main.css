@@ -70,6 +70,73 @@ body {
   .birthdayCard:hover .cardInside {
     z-index:999;
   }
+
+  .birthdayCard:hover {
+      -webkit-transform: perspective(2500px) rotate(5deg);
+              transform: perspective(2500px) rotate(5deg);
+      -webkit-box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+              box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+  }
+  
+  .birthdayCard:hover .cardFront {
+    -webkit-transform: rotateY(-160deg);
+            transform: rotateY(-160deg); 
+  }
+  
+  .birthdayCard:hover .front-text {
+    display: none;
+  }
+  
+  .birthdayCard:hover .wrap-deco {
+    display: none;
+  }
+  
+  .birthdayCard:hover .wrap-decoTwo {
+    display: none;
+  }
+  
+  .birthdayCard:hover .plate {
+    display: none;
+  }
+
+  .birthdayCard:hover .cardInside {
+    z-index:999;
+  }
+
+
+
+
+  .birthdayCard:active {
+    -webkit-transform: perspective(2500px) rotate(5deg);
+            transform: perspective(2500px) rotate(5deg);
+    -webkit-box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+            box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+}
+
+.birthdayCard:active .cardFront {
+  -webkit-transform: rotateY(-160deg);
+          transform: rotateY(-160deg); 
+}
+
+.birthdayCard:active .front-text {
+  display: none;
+}
+
+.birthdayCard:active .wrap-deco {
+  display: none;
+}
+
+.birthdayCard:active .wrap-decoTwo {
+  display: none;
+}
+
+.birthdayCard:active .plate {
+  display: none;
+}
+
+.birthdayCard:active .cardInside {
+  z-index:999;
+}
   
   .cardFront {
     position: relative;
